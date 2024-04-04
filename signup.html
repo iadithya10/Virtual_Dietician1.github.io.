@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Virtual Dietician AI Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Welcome </h1>
+    <div id="signupContainer">
+        <h2>Sign Up</h2>
+        <form id="signupForm" action="signup.php" method="POST">
+            <input type="text" id="fName" name="fName" placeholder="First name" required>
+            <input type="text" id="newUsername" name="newUsername" placeholder="New Username" required>
+            <input type="password" id="newPassword" name="newPassword" placeholder="New Password" required>
+            <input type="submit" class="" name="submit" value="Sign Up">
+            <!-- <button type="submit">Sign Up</button> -->
+            <p>Already have an account? <a href="index.html" id="loginLink">Login</a></p>
+        </form>
+    </div>
+    <div id="chatbot"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
